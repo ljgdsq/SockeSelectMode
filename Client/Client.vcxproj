@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{9358E320-BC2C-4345-850E-DCEF90161DC1}</ProjectGuid>
-    <RootNamespace>SockeSelectMode</RootNamespace>
+    <ProjectGuid>{DB53DD1C-9858-4E5A-A32A-B203D0D7B5AF}</ProjectGuid>
+    <RootNamespace>Client</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,18 +146,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Common.h" />
-    <ClInclude Include="resource.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="SockeSelectMode.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="README.MD" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="EasyTCPServer.cpp" />
-    <ClCompile Include="源.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
